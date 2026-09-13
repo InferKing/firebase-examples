@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46680964595",
+    "project_id": "fir-test-ded80",
+    "storage_bucket": "fir-test-ded80.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46680964595:android:bba175e99fa8031c7da686",
+        "android_client_info": {
+          "package_name": "com.Relocate.firebasetest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdZvkdCgTNo3KaRPZv8re2uLGLVK94WFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
