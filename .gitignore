@@ -73,3 +73,15 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Unity project is nested in RemoteConfig.
+/RemoteConfig/[Ll]ibrary/
+/RemoteConfig/[Tt]emp/
+/RemoteConfig/[Oo]bj/
+/RemoteConfig/[Ll]ogs/
+/RemoteConfig/[Uu]ser[Ss]ettings/
+/RemoteConfig/[Bb]uilds/
+/RemoteConfig/ServerData/
+/RemoteConfig/Assets/StreamingAssets/aa/
+/RemoteConfig/Assets/StreamingAssets/aa.meta
+/RemoteConfig/Assets/AddressableAssetsData/*/*.bin*

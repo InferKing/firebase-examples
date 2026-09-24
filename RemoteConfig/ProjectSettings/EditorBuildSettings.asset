@@ -6,8 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/RemoteConfig/RemoteConfig.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/RemoteConfigAddressables/AddressablesSwitching.unity
+    guid: 2666f59b987ae504c8aea2045b598297
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 5cc9b717c32571d418662d3ca2130c68, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
