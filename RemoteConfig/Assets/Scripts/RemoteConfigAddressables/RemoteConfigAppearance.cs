@@ -12,6 +12,7 @@ namespace FirebaseExamples.RemoteConfigAddressables
     {
         [FormerlySerializedAs("cube")]
         [SerializeField] private AddressableCubeView _cube;
+        [SerializeField] private AddressableCatalogUpdater _catalogUpdater;
 
         private FirebaseRemoteConfig _config;
 
@@ -94,11 +95,18 @@ namespace FirebaseExamples.RemoteConfigAddressables
             if (string.IsNullOrEmpty(key))
                 throw new Exception("cube_visual_key is empty.");
 
+            // Assigned only in example 2. Example 1 loads directly from the editor assets.
+            if (_catalogUpdater != null && key != "local/default")
+            {
+                Status = "Updating catalog...";
+                await _catalogUpdater.UpdateAsync();
+                if (this == null)
+                    return;
+            }
+
             await _cube.ShowAsync(key);
             if (this != null)
                 Status = "Visual: " + _cube.CurrentKey;
         }
     }
 }
-
-

@@ -104,3 +104,5 @@ Assets/Scenes/RemoteConfigAddressables/AddressablesSwitching.unity
 
 Готово, когда вы можете переключить **Ice → Lava → обычный куб** через свой Firebase.
 
+
+Следующий этап: [Пример 2 — новый скин через обновление каталога](02-content-update.md).
